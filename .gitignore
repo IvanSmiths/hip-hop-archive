@@ -1,21 +1,25 @@
-node_modules
-package-lock.json
-yarn.lock
-
-.DS_Store
-.cache
-.env
-.vercel
+dist
+.solid
 .output
+.vercel
+.netlify
+netlify
 
-/build/
-/api/
-/server/build
-/public/build
-# Sentry Config File
-.env.sentry-build-plugin
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-.tanstack
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+
+# Temp
+gitignore
+
+# System Files
+.DS_Store
+Thumbs.db
+
+.env
